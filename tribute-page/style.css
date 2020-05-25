@@ -1,0 +1,43 @@
+#main {
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     background-color: #eeeeee;
+     flex-direction: column;
+   }
+   
+   #title {
+     font-size: 2.5rem;
+     font-family: 'Source Sans Pro', sans-serif;
+   }
+   
+   p {
+     font-family: 'Source Sans Pro';
+   }
+   
+   #image {
+      max-width: 80%;
+     height: auto;
+   }
+   
+   #img-caption{
+      max-width: 80%;
+     text-align: center;
+   }
+   
+   #img-div {
+     width: 97%;
+     background-color: white;
+     display: flex;
+     flex-direction: column; 
+      align-items: center;
+     justify-content: center; 
+   }
+   
+   #tribute-info {
+      display: flex;
+     flex-direction: column; 
+      align-items: center;
+     justify-content: center;
+     max-width: 50%;
+   }
