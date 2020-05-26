@@ -1,0 +1,119 @@
+* {
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: "Roboto-bold";
+    src: url(./Fonts/Roboto/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: "Quicksand-regular";
+    src: url(./Fonts/Quicksand/Quicksand-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Quicksand-bold";
+    src: url(./Fonts/Quicksand/Quicksand-Bold.ttf);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #header {
+    display: flex;justify-content: space-between;
+    position: fixed;align-items: center;
+    top: 0px;
+    width: 100%; padding: 0px 20px 0px 20px;
+    pointer-events: none;
+    background: linear-gradient(88.14deg, #F7F7FF 0%, rgba(255, 255, 255, 0) 97.83%), #D3D2F2;
+    height: 8vh;
+    opacity: 50%;
+  }
+  
+  #nav-bar {
+    display: flex;
+    align-items: center;justify-content: center;
+  
+  }
+  #nav-link {
+     display: flex;
+     font-family: 'Quicksand-bold';
+    pointer-events: all;
+  }
+  #nav-link li {
+     margin: 0 20px;
+     list-style: none;
+  }
+  #nav-link a {
+     text-decoration: none;
+    color: black;
+  }
+
+  .visit {
+    height: 100vh;
+    background-image: url(./svg/background.svg);background-repeat: no-repeat;
+    background-position:center;background-size: cover;
+    display: grid;grid-template-columns: repeat(2, 1fr);
+  }
+  .walk-in {
+    grid-area: 1/2;justify-self: center;align-self: center;
+    display: grid;
+    grid-template-rows: 200px 200px;
+  }
+
+  .svg{
+    justify-self: center;align-self: center;
+  } 
+ .details {
+   align-self: center;
+   justify-self: start;
+ }
+
+  .details h2 {
+    font-family: 'Roboto-bold';
+    font-size:  3rem;
+    text-align: center;
+
+  }
+
+  .details p{
+    font-size: 18px;font-family: 'Quicksand-regular';
+     margin-top: 20px;
+     text-align: center;
+  }
+
+  #form {
+     align-self: center;justify-self: center;
+     width: 70%;
+     display: flex;align-items: center;flex-direction: column;justify-content: space-evenly;
+     height: 100%;
+  }
+  #email {
+ width: 90%;
+  padding: 15px 6px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Quicksand-bold';
+  }
+  #submit {
+    background: transparent;
+    border: 1px solid #6560d8; border-radius: 3px;
+    width: 50%; padding: 15px 0;
+    text-align: center;
+    font-size: 1rem;
+    transition: all 0.5s;
+    cursor: pointer;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+ #submit:hover{
+    background-color: #6561d7; color: white;
+    box-shadow: none;
+    border: 1px solid #d2d1f3; border-radius: 3px;
+  }
+.visit {
+  height: 100vh;
+}
+  
+
+ 
+ 
